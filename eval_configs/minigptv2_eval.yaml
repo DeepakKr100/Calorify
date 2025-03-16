@@ -6,6 +6,7 @@ model:
   low_resource: True
   prompt_template: '[INST] {} [/INST]'
   ckpt: "/content/16824-CaLORAify/Cal_Data/checkpoint_best (1).pth"
+  llama_model: "baffo32/decapoda-research-llama-7B-hf"
   lora_r: 64
   lora_alpha: 16
 
